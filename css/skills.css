@@ -1,0 +1,123 @@
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 4vh;
+    width: 30vw;
+    margin-top: 2%;
+  }
+  /*-----------------------skills bars settings---------------------------*/
+  #html{
+    animation: loadhtml 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 4vh;
+    width: 0;
+  }
+  
+  @keyframes loadhtml {
+    0% { width: 0; }
+    100% { width: 99%; }
+  }
+  #php{
+    animation: loadphp 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 4vh;
+    width: 0;
+  }
+  
+  @keyframes loadphp {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+  #SQL{
+    animation: loadSQL 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 4vh;
+    width: 0;
+  }
+  
+  @keyframes loadSQL {
+    0% { width: 0; }
+    100% { width: 85%; }
+  }
+  #Cplusplus{
+    animation: loadCplus 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 4vh;
+    width: 0;
+  }
+  
+  @keyframes loadCplus {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+  #C{
+    animation: loadC 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 4vh;
+    width: 0;
+  }
+  
+  @keyframes loadC {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+  #JS{
+    animation: loadJS 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 4vh;
+    width: 0;
+  }
+  
+  @keyframes loadJS {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  #Java{
+    animation: loadJava 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 4vh;
+    width: 0;
+  }
+  
+  @keyframes loadJava {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+  #Csharp{
+    animation: loadCsharp 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 4vh;
+    width: 0;
+  }
+  
+  @keyframes loadCsharp {
+    0% { width: 0; }
+    100% { width: 55%; }
+  }
+  .skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+.content div p{
+    font-size: 2vw;
+    text-justify: auto;
+   
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content div{
+    width: 80%;
+    text-justify: auto;
+    align-items: center;
+    margin-left: 5%;
+    border-bottom:solid white 10px;
+}
+
+

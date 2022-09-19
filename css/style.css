@@ -1,0 +1,126 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: auto;
+  min-height: auto;
+}
+.content {
+    font-family: system-ui;
+    justify-content: space-evenly;
+    text-justify: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+  background-color: rgba(76, 175, 80, 0.3);
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+header {
+    font-family: system-ui;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(128,128,128,0.9);
+  z-index: 1;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  color: black;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav a {
+    border: solid black 10px;
+    background-color:black;
+    border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 10vw;
+  transition-duration: 1s;
+}
+
+nav a:hover {
+  padding-left: 5%;
+  padding-right: 5%;
+  transition-duration: 1s;
+  transition-property: padding;
+}
+.icons img {
+  width: 10vh;
+  margin-left: 10%;
+}
+body {
+  display: flex;
+  float: inline-end;
+  position: absolute;
+  width: 100%;
+  top: 8vh;
+  margin: 0;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+}
+.title img{
+    position: absolute;
+    margin-top: 20px;
+    right: 2%;
+    width: 25vw;
+    height: 30vw;
+    border-radius: 100px;
+}
+h1{
+    font-size: 8vw;
+}
+h2{
+    font-size: 4vw;
+}
+#about{
+  text-justify: auto;
+  font-size: 2vw;
+  width: 70%;
+}
+h3{
+  font-size: 30px;
+}
+.content li{
+  position: relative;
+  font-size: 2vw;
+  width: 70%;
+  text-justify: auto;
+}
+.content li::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+.content li:hover{
+  color: black;
+}
+.content li:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.content li::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  z-index:auto;
+  background:  rgba(64, 162, 165, 0.2);
+  transition: transform .3s ease;
+}
