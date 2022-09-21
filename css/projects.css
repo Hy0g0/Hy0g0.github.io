@@ -1,5 +1,8 @@
+h2{
+    font-size: 1.2em;
+}
 .content div p{
-    font-size: 2vw;
+    font-size: 0.8vw;
     text-justify: auto;
    
 }
@@ -13,7 +16,7 @@
     text-justify: auto;
     align-items: center;
     margin-left: 5%;
-    border-bottom:solid white 10px;
+    border-bottom:solid white 5px;
 }
 
 

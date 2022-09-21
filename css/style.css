@@ -83,10 +83,10 @@ body {
     border-radius: 100px;
 }
 h1{
-    font-size: 8vw;
+    font-size: 4vw;
 }
 h2{
-    font-size: 4vw;
+    font-size: 2vw;
 }
 #about{
   text-justify: auto;
@@ -94,11 +94,11 @@ h2{
   width: 70%;
 }
 h3{
-  font-size: 30px;
+  font-size: 20px;
 }
 .content li{
   position: relative;
-  font-size: 2vw;
+  font-size: 15px;
   width: 70%;
   text-justify: auto;
 }
