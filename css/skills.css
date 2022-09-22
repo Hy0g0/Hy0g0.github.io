@@ -7,9 +7,14 @@
     padding: 0 5px;
     display: flex;
     box-sizing: content-box;
-    height: 2vh;
-    width: 15vw;
+    margin-left: 100px;
+    height: 4vh;
     margin-top: 2%;
+    width: min(95%, 30vw);  
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
   }
   /*-----------------------skills bars settings---------------------------*/
   #html{
@@ -75,7 +80,7 @@
   
   @keyframes loadC {
     0% { width: 0; }
-    100% { width: 70%; }
+    100% { width: 60%; }
   }
   #JS{
     animation: loadJS 3s normal forwards;
@@ -114,7 +119,7 @@
   
   @keyframes loadCsharp {
     0% { width: 0; }
-    100% { width: 55%; }
+    100% { width: 60%; }
   }
   .skill{
     display: flex;
@@ -124,5 +129,9 @@
 }
 /*-----------------------skills bars settings end ---------------------------*/
 .logos{
-  height: 100px;
+  height: 6vw;
+  align-content: center;
+}
+span{
+  font-size: 2vw;
 }
