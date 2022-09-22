@@ -6,8 +6,9 @@
     position: relative;
     padding: 0 5px;
     display: flex;
-    height: 4vh;
-    width: 30vw;
+    box-sizing: content-box;
+    height: 2vh;
+    width: 15vw;
     margin-top: 2%;
   }
   /*-----------------------skills bars settings---------------------------*/
