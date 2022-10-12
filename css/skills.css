@@ -4,7 +4,7 @@
     border-radius: 100px;
     align-items: center;
     position: relative;
-    padding: 0 5px;
+    padding: 0px;
     display: flex;
     box-sizing: content-box;
     margin-left: 100px;
@@ -12,16 +12,15 @@
     margin-top: 2%;
     width: min(95%, 30vw);  
   }
-  .skills{
-    display: flex;
-    flex-direction: column;
-  }
+ .content {
+  margin-top: 2%;
+ }
   /*-----------------------skills bars settings---------------------------*/
   #html{
     animation: loadhtml 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background: grey;
     height: 4vh;
     width: 0;
   }
@@ -34,7 +33,7 @@
     animation: loadphp 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background: grey;
     height: 4vh;
     width: 0;
   }
@@ -47,7 +46,7 @@
     animation: loadSQL 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background: grey;
     height: 4vh;
     width: 0;
   }
@@ -60,7 +59,7 @@
     animation: loadCplus 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background: grey;
     height: 4vh;
     width: 0;
   }
@@ -73,7 +72,7 @@
     animation: loadC 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background: grey;
     height: 4vh;
     width: 0;
   }
@@ -86,7 +85,7 @@
     animation: loadJS 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background: grey;
     height: 4vh;
     width: 0;
   }
@@ -99,7 +98,7 @@
     animation: loadJava 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background: grey;
     height: 4vh;
     width: 0;
   }
@@ -112,7 +111,7 @@
     animation: loadCsharp 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background: grey;
     height: 4vh;
     width: 0;
   }
